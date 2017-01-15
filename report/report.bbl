@@ -1,0 +1,54 @@
+\begin{thebibliography}{1}
+
+\bibitem{laoufi}
+A.~Laoufi, S.~Hadjeri, and A.~Hazzab.
+\newblock Adaptive probabilities of crossover and mutation in genetic
+  algorithms for power economic dispatch.
+
+\bibitem{abdoun2012}
+Otman Abdoun, Jaafar Abouchabaka, and Chakir Tajani.
+\newblock Analyzing the performance of mutation operators to solve the
+  travelling salesman problem.
+\newblock {\em arXiv preprint arXiv:1203.3099}, 2012.
+
+\bibitem{chatterjee1996}
+Sangit Chatterjee, Cecilia Carrera, and Lucy~A Lynch.
+\newblock Genetic algorithms and traveling salesman problems.
+\newblock {\em European journal of operational research}, 93(3):490--510, 1996.
+
+\bibitem{oladele2013}
+RO~Oladele and JS~Sadiku.
+\newblock Genetic algorithm performance with different selection methods in
+  solving multi-objective network design problem.
+\newblock {\em International Journal of Computer Applications}, 70(12):5--9,
+  2013.
+
+\bibitem{noraini2011}
+Mohd~Razali Noraini and John Geraghty.
+\newblock Genetic algorithm performance with different selection strategies in
+  solving tsp.
+\newblock 2011.
+
+\bibitem{ulder1991}
+NicoL.J. Ulder, EmileH.L. Aarts, Hans-Jürgen Bandelt, PeterJ.M. van Laarhoven,
+  and Erwin Pesch.
+\newblock Genetic local search algorithms for the traveling salesman problem.
+\newblock 496:109--116, 1991.
+
+\bibitem{muhlenbein1991}
+H.~Mühlenbein.
+\newblock Parallel genetic algorithms, population genetics and combinatorial
+  optimization.
+\newblock 565:398--406, 1991.
+
+\bibitem{braun1991}
+Heinrich Braun.
+\newblock On solving travelling salesman problems by genetic algorithms.
+\newblock 496:129--133, 1991.
+
+\bibitem{nicolas2014}
+Patrick~R. Nicolas.
+\newblock {\em Scala for Machine Learning}.
+\newblock Packt Publishing, 2014.
+
+\end{thebibliography}

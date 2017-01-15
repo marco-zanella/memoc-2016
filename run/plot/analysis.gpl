@@ -1,0 +1,109 @@
+#!/usr/bin/gnuplot
+########################################################################
+
+set terminal postscript eps enhanced "Verdana-Bold" 14 color
+set size 1,1
+set   autoscale
+unset label
+set ytic auto
+set grid
+
+set style line 1  lt 1 pt 7  ps 1.3 lw 4 linecolor rgb "#DF2B1C"
+set style line 2  lt 1 pt 5  ps 1.3 lw 4 linecolor rgb "#31A736"
+set style line 3  lt 1 pt 9  ps 1.3 lw 4 linecolor rgb "#3151A7"
+set style line 4  lt 1 pt 11 ps 1.3 lw 4 linecolor rgb "#F9D235"
+set style line 5  lt 1 pt 13 ps 1.3 lw 4 linecolor rgb "#35A1F9"
+set style line 6  lt 1 pt 15 ps 1.3 lw 4 linecolor rgb "#F935A2"
+
+set style line 7  lt 2 pt 6  ps 1.3 lw 4 linecolor rgb "#DE662F"
+set style line 8  lt 2 pt 4  ps 1.3 lw 4 linecolor rgb "#9AA731"
+set style line 9  lt 2 pt 8  ps 1.3 lw 4 linecolor rgb "#2FC5DE"
+set style line 10 lt 2 pt 10 ps 1.3 lw 4 linecolor rgb "#DED22F"
+set style line 11 lt 2 pt 12 ps 1.3 lw 4 linecolor rgb "#6FA4C6"
+set style line 12 lt 2 pt 15 ps 1.3 lw 4 linecolor rgb "#FF81C9"
+
+set macros
+
+convert = "!convert -flatten -density 200x200 -antialias "
+remove = "!/bin/rm -f "
+
+
+
+########################################################################
+# Performance
+
+set out "performance.eps"
+set xlabel "Size"
+set ylabel "Performance"
+set key bottom left
+set title "Performance vs Size"
+
+plot[5:85][0:1.1] \
+     "./cplex_mean.dat" using 1:($2 / $2) w lp ls 1 t "CPLEX solver" , \
+     "<paste ./cplex_mean.dat ./ga_mean.dat" \
+     using 1:6 w lp ls 2 t "GA solver", \
+     "<paste ./cplex_mean.dat ./random_mean.dat" \
+     using 1:($2 / $5) w lp ls 3 t "Random solver"
+
+@convert performance.eps plot-performance.png
+@remove performance.eps
+
+
+
+########################################################################
+# Wallclock time
+
+set out "wallclock.eps"
+set xlabel "Size"
+set ylabel "Wallclock time (s)"
+set key top left
+set title "Wallclock time vs Size"
+
+plot[5:85][-10:] \
+     "./cplex_mean.dat"  using 1:3 w lp ls 1 t "CPLEX solver", \
+     "./ga_mean.dat"     using 1:7 w lp ls 2 t "GA solver", \
+     "./random_mean.dat" using 1:3 w lp ls 3 t "Random solver"
+
+@convert wallclock.eps plot-wallclock.png
+@remove wallclock.eps
+
+
+
+########################################################################
+# Stability (GA)
+
+set out "stability.eps"
+set xlabel "Size"
+set ylabel "Performance"
+set key bottom right
+set title "Performance vs Size (GA)"
+set style fill solid 0.4 border
+
+plot[5:85] \
+     "./ga_mean.dat" using 1:($3 - $8):($3 + $8) \
+     ls 2 w filledcu t "Standard deviation", \
+     "./ga_mean.dat" using 1:4 w lp ls 7 t "Minimum performance", \
+     "./ga_mean.dat" using 1:3 w lp ls 2 t "Mean performance", \
+     "./ga_mean.dat" using 1:5 w lp ls 8 t "Maximum performance"
+
+
+@convert stability.eps plot-stability.png
+@remove stability.eps
+
+
+########################################################################
+# Cumulative distrubution of resolution time
+
+set out "cumulative.eps"
+set xlabel "Time (s)"
+set ylabel "Percentage solved (%)"
+set key bottom right
+set title "Percentage of solved instance vs time"
+
+plot[-10:210][0:110] \
+    "./cplex_cumulative.dat"  using 1:2 w lp ls 1 t "CPLEX solver", \
+    "./ga_cumulative.dat"     using 1:2 w lp ls 2 t "GA solver", \
+    "./random_cumulative.dat" using 1:2 w lp ls 3 t "Random solver"
+
+@convert cumulative.eps plot-cumulative.png
+@remove cumulative.eps

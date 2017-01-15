@@ -1,0 +1,99 @@
+@article{
+    year      = { 1991 },
+    isbn      = { 978-3-540-55027-3 },
+    booktitle = { Parallelism, Learning, Evolution },
+    volume    = { 565 },
+    series    = { Lecture Notes in Computer Science },
+    editor    = { Becker, J.D. and Eisele, I. and Mündemann, F.W. },
+    doi       = { 10.1007/3-540-55027-5_23 },
+    title     = { Parallel genetic algorithms, population genetics and combinatorial optimization },
+    url       = { http://dx.doi.org/10.1007/3-540-55027-5_23 },
+    publisher = { Springer Berlin Heidelberg },
+    author    = { Mühlenbein, H. },
+    pages     = { 398-406 },
+    language  = { English }
+}
+
+
+@article{
+    year={1991},
+    isbn      = { 978-3-540-54148-6 },
+    booktitle = { Parallel Problem Solving from Nature },
+    volume    = { 496 },
+    series    = { Lecture Notes in Computer Science },
+    editor    = { Schwefel, Hans-Paul and Männer, Reinhard },
+    doi       = { 10.1007/BFb0029743 },
+    title     = { On solving travelling salesman problems by genetic algorithms },
+    url       = { http://dx.doi.org/10.1007/BFb0029743 },
+    publisher = { Springer Berlin Heidelberg },
+    author    = { Braun, Heinrich },
+    pages     = { 129-133 },
+    language  = { English }
+}
+
+
+
+@article{Laoufi_adaptiveprobabilities,
+    author = { A. Laoufi and S. Hadjeri and A. Hazzab },
+    title  = { Adaptive Probabilities of Crossover and Mutation in Genetic Algorithms for power economic dispatch },
+    year   = {}
+}
+
+
+@article{
+    year      = { 1991 },
+    isbn      = { 978-3-540-54148-6 },
+    booktitle = { Parallel Problem Solving from Nature },
+    volume    = { 496 },
+    series    = { Lecture Notes in Computer Science },
+    editor    = { Schwefel, Hans-Paul and Männer, Reinhard },
+    doi       = { 10.1007/BFb0029740 },
+    title     = { Genetic local search algorithms for the traveling salesman problem },
+    url       = { http://dx.doi.org/10.1007/BFb0029740 },
+    publisher = { Springer Berlin Heidelberg },
+    author    = { Ulder, NicoL.J. and Aarts, EmileH.L. and Bandelt, Hans-Jürgen and van Laarhoven, PeterJ.M. and Pesch, Erwin },
+    pages     = { 109-116 },
+    language  = { English }
+}
+
+
+
+
+
+
+@article{fanaee2013,
+    year      = { 2013 },
+    issn      = { 2192-6352 },
+    journal   = { Progress in Artificial Intelligence },
+    doi       = { 10.1007/s13748-013-0040-3 },
+    title     = { Event labeling combining ensemble detectors and background knowledge },
+    url       = { http://dx.doi.org/10.1007/s13748-013-0040-3 },
+    publisher = { Springer Berlin Heidelberg },
+    keywords  = { Event labeling; Event detection; Ensemble learning; Background knowledge },
+    author    = { Fanaee-T, Hadi and Gama, Joao },
+    pages     = { 1-15 }
+}
+
+
+@book{azzalini2012data,
+    title     = { Data analysis and data mining: an introduction },
+    author    = { Azzalini, Adelchi and Scarpa, Bruno and Walton, Gabriel },
+    year      = { 2012 },
+    publisher = { Oxford University Press }
+}
+
+
+@book{hastie2013introduction,
+    title     = { An Introduction to Statistical Learning with Applications in R },
+    author    = { Hastie, Trevor and James, Gareth and Tibshirani, Robert and Witten, Daniela },
+    year      = { 2013 },
+    publisher = { Springer, New York, }
+}
+
+
+@book{hastie2005elements,
+    title     = { The elements of statistical learning: data mining, inference and prediction },
+    author    = { Hastie, Trevor and Tibshirani, Robert and Friedman, Jerome and Franklin, James },
+    year      = { 2009 },
+    publisher = { Springer-Verlag, Heidelberg and New York. }
+}

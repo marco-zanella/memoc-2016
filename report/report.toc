@@ -1,0 +1,40 @@
+\select@language {italian}
+\select@language {italian}
+\contentsline {chapter}{\numberline {1}Assunzioni e motivazioni}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Costo degli archi}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Ordinamento dei fori}{1}{section.1.2}
+\contentsline {section}{\numberline {1.3}Costo della creazione di un modello (CPLEX)}{2}{section.1.3}
+\contentsline {section}{\numberline {1.4}Costo della popolazione iniziale (GA)}{2}{section.1.4}
+\contentsline {chapter}{\numberline {2}Modello di PLI}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Rimozione dei cappi}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}Archi mancanti}{3}{section.2.2}
+\contentsline {chapter}{\numberline {3}Algoritmo Genetico}{4}{chapter.3}
+\contentsline {section}{\numberline {3.1}Algoritmo}{4}{section.3.1}
+\contentsline {section}{\numberline {3.2}Parametri}{4}{section.3.2}
+\contentsline {section}{\numberline {3.3}Componenti}{5}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Codifica e decodifica}{5}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Popolazione iniziale}{5}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Selezione}{6}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Crossover}{6}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.5}Mutazione}{6}{subsection.3.3.5}
+\contentsline {subsection}{\numberline {3.3.6}Miglioramento}{7}{subsection.3.3.6}
+\contentsline {subsection}{\numberline {3.3.7}Accettazione}{7}{subsection.3.3.7}
+\contentsline {subsection}{\numberline {3.3.8}Gestione della Popolazione}{7}{subsection.3.3.8}
+\contentsline {subsection}{\numberline {3.3.9}Criteri di arresto}{8}{subsection.3.3.9}
+\contentsline {chapter}{\numberline {4}Analisi dei dati sperimentali}{9}{chapter.4}
+\contentsline {section}{\numberline {4.1}Generazione delle istanze}{9}{section.4.1}
+\contentsline {section}{\numberline {4.2}Raccolta dei dati}{10}{section.4.2}
+\contentsline {section}{\numberline {4.3}Confronto}{13}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Tempo di sviluppo}{13}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Qualit\IeC {\`a}}{13}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Stabilit\IeC {\`a}}{14}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Tempo}{14}{subsection.4.3.4}
+\contentsline {chapter}{\numberline {5}Conclusioni}{15}{chapter.5}
+\contentsline {section}{\numberline {5.1}Interpretazione}{15}{section.5.1}
+\contentsline {section}{\numberline {5.2}Margini di miglioramento}{15}{section.5.2}
+\contentsline {chapter}{\numberline {A}Calibrazione dell'Algoritmo Genetico}{17}{appendix.Alph1}
+\contentsline {section}{\numberline {A.1}Effetto marginale dei parametri}{19}{section.Alph1.1}
+\contentsline {section}{\numberline {A.2}Distribuzione delle prestazioni}{19}{section.Alph1.2}
+\contentsline {section}{\numberline {A.3}Relazione tra parametri e prestazioni}{19}{section.Alph1.3}
+\contentsline {section}{\numberline {A.4}Funzione di calibrazione}{21}{section.Alph1.4}
+\contentsline {chapter}{\numberline {B}Grafo simmetrico e fortemente connesso}{22}{appendix.Alph2}

@@ -1,0 +1,58 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/dev/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: report.aux
+The style file: unsrt.bst
+Database file #1: bibliography.bib
+I was expecting a `,' or a `}'---line 96 of file bibliography.bib
+ :     
+ :     isbn      = { 9781783558742 }
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--empty journal in laoufi
+Warning--empty year in laoufi
+Warning--empty journal in noraini2011
+Warning--empty journal in ulder1991
+Warning--empty journal in muhlenbein1991
+Warning--empty journal in braun1991
+You've used 9 entries,
+            1791 wiz_defined-function locations,
+            500 strings with 5082 characters,
+and the built_in function-call counts, 1759 in all, are:
+= -- 146
+> -- 78
+< -- 0
++ -- 30
+- -- 21
+* -- 114
+:= -- 296
+add.period$ -- 26
+call.type$ -- 9
+change.case$ -- 8
+chr.to.int$ -- 0
+cite$ -- 15
+duplicate$ -- 79
+empty$ -- 175
+format.name$ -- 21
+if$ -- 378
+int.to.chr$ -- 0
+int.to.str$ -- 9
+missing$ -- 10
+newline$ -- 47
+num.names$ -- 9
+pop$ -- 32
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 28
+stack$ -- 0
+substring$ -- 101
+swap$ -- 4
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 6
+while$ -- 16
+width$ -- 10
+write$ -- 90
+(There was 1 error message)
